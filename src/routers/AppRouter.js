@@ -41,7 +41,6 @@ export const AppRouter = () => {
     <Router>
       <Switch>
         <PublicRoute
-          exact
           path="/auth"
           isAuthenticated={isLoggedIn}
           component={AuthRouter}
